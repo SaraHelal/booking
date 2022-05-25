@@ -56,14 +56,14 @@ const List = () => {
                   {`${format(date[0].startDate,'eee d MMM')} - ${format(date[0].endDate,'eee d MMM')}`}
                 </span>
                 {openDate && 
-                  <DateRange
+                <div onClick={(e)=>e.stopPropagation()}><DateRange
                   editableDateInputs={true}
                   onChange={item => setDate([item.selection])}
                   moveRangeOnFirstSelection={false}
                   ranges={date}
                   minDate={new Date()}
                   className="date"
-                  />
+                  /></div>
                   }
               </div>
             </div>
