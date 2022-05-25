@@ -1,0 +1,56 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.fpItem{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 23%;
+    
+}
+
+.fpImg{
+    width: 100%;
+    object-fit: cover;
+    height: 220px;
+
+}
+.fpTitle{
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+    width: 82%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.fpCity{
+    font-size: 14px;
+    color: gray;
+}
+.fbPrice{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fbRating{
+
+}
+
+.fpRating .number{
+    background-color: #003580;
+    padding: 3px 5px;
+    border-radius: 6px;
+    margin-right: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.fpRating .degree{
+    font-size: 14px;
+}

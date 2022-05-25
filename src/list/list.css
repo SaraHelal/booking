@@ -1,0 +1,77 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+}
+.listWrapper{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    margin: 30px 0;
+    justify-content: space-between;
+    gap: 10px;
+}
+.listSearch{
+    background-color: #FEBB02;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    height: max-content;
+}
+.listSearch h1{
+    font-weight: 500;
+    font-size: 19px;
+}
+.listInput{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+}
+.listInputHolder{
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 3px;
+}
+.listInputHolder >input{
+    height: 100%;
+    border: none;
+}
+
+.listInputHolder >input:focus{
+    outline: none;
+}
+.listInputHolder.select{
+    cursor: pointer;
+
+}
+.listInputDateText,
+.listInputOptionsText{
+    font-size: 14px;
+}
+.listInput .date{
+   position: absolute; 
+}
+.listSearch > button{
+    background-color: #0071C2;
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.listSearch > button:hover{
+    background-color: #00487A;
+}
+
+.listResult{
+    flex: 4;
+}
+
+
