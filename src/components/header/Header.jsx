@@ -10,7 +10,6 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import { useNavigate } from 'react-router-dom';
 import { Options } from '../Options';
 
-
 const Header = ({type}) => {
     const [destination, setDestination] = useState("")
     const [date, setDate] = useState([
